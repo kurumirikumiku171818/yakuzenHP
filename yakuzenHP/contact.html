@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お問い合わせはこちら</title>
+  </head>
+  <body>
+    <form>
+      <label>お名前（必須）</label
+      ><input type="text" placeholder="名前を入力してください" required />
+      <br />
+      <label>ふりがな（必須）</label
+      ><input type="text" placeholder="ふりがな" required />
+      <br />
+      <label>メールアドレス（必須）</label
+      ><input
+        type="text"
+        placeholder="半角英数字のみ入力可能（例）abcde@example.com"
+        required
+      />
+      <br />
+      <label>メールアドレス（確認用）</label
+      ><input
+        type="text"
+        placeholder="上記と同じアドレスを入力してください"
+        required
+      />
+      <br />
+      <label>お問合せ内容</label><textarea></textarea>
+      <br />
+      <label>利用規約に同意する</label><input type="checkbox" />
+      <br />
+      <input type="submit" value="送信" />
+      <input type="reset" value="リセット" />
+    </form>
+  </body>
+</html>
