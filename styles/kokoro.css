@@ -1,0 +1,9 @@
+#kokoro {
+  font-size: 40px;
+  color: darkolivegreen;
+}
+
+.kokoro-content {
+  display: flex;
+  justify-content: space-around;
+}
