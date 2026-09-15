@@ -1,0 +1,34 @@
+#voice {
+  font-size: 50px;
+  color: darkolivegreen;
+  margin: 40px;
+}
+
+.voice-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.voice-content section {
+  flex: 1;
+  padding: 30px;
+  border: 1px solid #d8d0c2;
+  border-radius: 10px;
+}
+
+.voice-section {
+  font-size: 30px;
+  margin: 20px;
+}
+
+::details-content {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.star {
+  font-size: 26px;
+  margin: 10px;
+  color: rgb(199, 199, 134);
+}
