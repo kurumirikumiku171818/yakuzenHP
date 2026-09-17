@@ -1,0 +1,44 @@
+.contactbutton {
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0 16px;
+  text-decoration: none;
+  color: #699b5f;
+  transition: 0.4s;
+}
+
+.contactbutton:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  top: 100%;
+  left: 0;
+  border-radius: 3px;
+  background: #699b5f;
+  transition: 0.2s;
+}
+
+.contactbutton:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  background: #699b5f;
+  transition: 0.2s;
+}
+
+.contactbutton:hover:before {
+  top: -webkit-calc(100% - 3px);
+  top: calc(100% - 3px);
+}
+
+.contactbutton:hover:after {
+  top: 3px;
+}
