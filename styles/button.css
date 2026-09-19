@@ -1,5 +1,5 @@
-.applicationbutton {
-  margin-top: 60px;
+.button {
+  margin-top: 40px;
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -10,7 +10,7 @@
   transition: 0.4s;
 }
 
-.applicationbutton:before {
+.button:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -22,7 +22,7 @@
   transition: 0.2s;
 }
 
-.applicationbutton:after {
+.button:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -34,11 +34,11 @@
   transition: 0.2s;
 }
 
-.applicationbutton:hover:before {
+.button:hover:before {
   top: -webkit-calc(100% - 3px);
   top: calc(100% - 3px);
 }
 
-.applicationbutton:hover:after {
+.button:hover:after {
   top: 3px;
 }
