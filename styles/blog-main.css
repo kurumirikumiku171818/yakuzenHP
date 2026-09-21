@@ -1,0 +1,23 @@
+article {
+  max-width: 800px;
+  margin: 0 0 25px;
+  padding: 25px 30px;
+  border: 1px solid #e2ddd2;
+  border-radius: 8px;
+  background-color: #faf9f5;
+}
+
+.date {
+  margin: 0 0 15px;
+  font-size: 13px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.write {
+  font-size: 15px;
+  line-height: 30px;
+}
