@@ -11,7 +11,6 @@
 }
 
 .voice-content section {
-  flex: 1;
   padding: 30px;
   border: 1px solid #d8d0c2;
   border-radius: 10px;
@@ -22,8 +21,7 @@
   margin: 20px;
 }
 
-::details-content {
-  font-size: 20px;
+.size {
   line-height: 1.8;
 }
 
