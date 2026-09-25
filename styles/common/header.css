@@ -23,6 +23,13 @@ nav ul {
 }
 
 .top-image {
-  width: 100%;
-  height: auto;
+  width: 2050px;
+  height: 850px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .header-wrapper {
+    flex-direction: column;
+  }
 }
