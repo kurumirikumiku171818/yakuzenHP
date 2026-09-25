@@ -1,0 +1,10 @@
+#kokoro {
+  font-size: 50px;
+  color: darkolivegreen;
+  margin: 40px;
+}
+
+.lesson {
+  display: inline-block;
+  background: linear-gradient(transparent 70%, #bfd9c4 0%);
+}
