@@ -3,22 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/contact-form.css" />
+    <link rel="stylesheet" href="./styles/common/reset.css" />
+    <link rel="stylesheet" href="./styles/common/common.css" />
+    <link rel="stylesheet" href="./styles/common/header.css" />
+    <link rel="stylesheet" href="./styles/pages/book-contact.css" />
+
     <title>お問い合わせはこちら</title>
   </head>
   <body>
-    <form class="contact-form">
-      <div class="form-item">
+    <header class="header-wrapper">
+      <div class="flex">
+        <h1 class="header-title">kokoro</h1>
+        <nav>
+          <ul class="flex">
+            <li class="menu-list">
+              <a href="/index.html">ホーム</a>
+            </li>
+            <li class="menu-list">
+              <a href="/index.html#kokoro">教室について</a>
+            </li>
+            <li class="menu-list">
+              <a href="/index.html#koushi">講師紹介</a>
+            </li>
+            <li class="menu-list">
+              <a href="/index.html#voice">受講者の声</a>
+            </li>
+            <li class="menu-list">
+              <a href="/index.html#koushi-vlog">講師ブログ</a>
+            </li>
+            <li class="menu-list">
+              <a href="contact.html">お問合わせ</a>
+            </li>
+            <li class="menu-list">
+              <a href="book.html">薬膳体験予約</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <form class="book-form">
+      <div class="book-item">
         <label>お名前（必須）</label
         ><input type="text" placeholder="名前を入力してください" required />
       </div>
 
-      <div class="form-item">
+      <div class="book-item">
         <label>ふりがな（必須）</label
         ><input type="text" placeholder="ふりがな" required />
       </div>
 
-      <div class="form-item">
+      <div class="book-item">
         <label>メールアドレス（必須）</label
         ><input
           type="email"
@@ -27,7 +62,7 @@
         />
       </div>
 
-      <div class="form-item">
+      <div class="book-item">
         <label>メールアドレス（確認用）</label
         ><input
           type="text"
@@ -36,11 +71,11 @@
         />
       </div>
 
-      <div class="form-item">
+      <div class="book-item">
         <label>お問合せ内容</label><textarea></textarea>
       </div>
 
-      <div class="form-item">
+      <div class="book-item">
         <label>個人情報の取り扱いに同意する</label><input type="checkbox" />
       </div>
 
