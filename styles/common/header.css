@@ -49,9 +49,31 @@ nav ul {
     display: none;
   }
 
-  .header-title {
-    color: red;
+  .header-wrapper {
+    .background: #f7f3ea;
+    width: auto;
+    height: 100px;
   }
 
-  /* object-fit */
+  .top-image {
+    position: relative;
+    width: 768px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .top-text {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px #2d603c;
+    text-align: center;
+    line-height: 1.8;
+  }
 }
+
+/* object-fit */
