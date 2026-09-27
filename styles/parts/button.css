@@ -42,3 +42,8 @@
 .button:hover:after {
   top: 3px;
 }
+
+.form-button {
+  display: flex;
+  gap: 40px;
+}
