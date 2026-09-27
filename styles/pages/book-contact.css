@@ -25,6 +25,16 @@ textarea {
   box-sizing: border-box;
 }
 
+.book-item input[type="checkbox"] {
+  appearance: auto;
+  flex: none;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 .book-date {
   display: flex;
   flex-direction: column;
@@ -36,6 +46,13 @@ textarea {
   align-items: center;
   gap: 10px;
 }
+
+.time input[type="radio"] {
+  appearance: auto;
+  width: 16px;
+  height: 16px;
+}
+
 .form-button {
   text-align: center;
   margin-top: 50px;
