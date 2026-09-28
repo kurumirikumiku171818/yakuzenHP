@@ -10,13 +10,13 @@
   font-size: 25px;
 }
 
-.voice-content section {
+.voice-content .voice-wrap {
   padding: 30px;
   border: 1px solid #d8d0c2;
   border-radius: 10px;
 }
 
-.voice-section {
+.voice-title {
   font-size: 25px;
   margin: 20px;
 }
