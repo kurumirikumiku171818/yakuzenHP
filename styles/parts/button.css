@@ -1,4 +1,4 @@
-.button {
+.bar-button {
   margin-top: 40px;
   position: relative;
   display: inline-block;
@@ -10,7 +10,7 @@
   transition: 0.4s;
 }
 
-.button:before {
+.bar-button:before {
   position: absolute;
   content: '';
   width: 100%;
@@ -22,7 +22,7 @@
   transition: 0.2s;
 }
 
-.button:after {
+.bar-button:after {
   position: absolute;
   content: '';
   width: 100%;
@@ -34,12 +34,12 @@
   transition: 0.2s;
 }
 
-.button:hover:before {
+.bar-button:hover:before {
   top: -webkit-calc(100% - 3px);
   top: calc(100% - 3px);
 }
 
-.button:hover:after {
+.bar-button:hover:after {
   top: 3px;
 }
 
@@ -49,6 +49,3 @@
 }
 
 /* button は btn と略すことが多いかもです！ */
-.prev-button {
-  margin-right: 300px;
-}

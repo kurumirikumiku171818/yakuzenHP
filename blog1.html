@@ -3,15 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/blog-each.css" />
+    <!-- 必要な CSS は全て先に入れた方がいいです！ -->
+    <!-- 本当は reset.css 使うのであれば全てに入れるべきです！ -->
+    <!-- <link rel="stylesheet" href="./styles/common/reset.css" /> -->
+    <link rel="stylesheet" href="./styles/common/common.css" />
+    <link rel="stylesheet" href="./styles/common/header.css" />
+    <link rel="stylesheet" href="./styles/common/footer.css" />
+    <link rel="stylesheet" href="./styles/parts/button.css" />
+    <link rel="stylesheet" href="./styles/animation/btn.css" />
     <title>講師ブログ</title>
   </head>
 
   <body>
     <article>
-      <h2 class="title">「薬膳料理教室 yui」をオープンしました</h2>
-      <p class="date">2026/4/2</p>
-      <p class="write">
+      <h2 class="fs30 mb10">「薬膳料理教室 yui」をオープンしました</h2>
+      <p class="date-m fs20">2026/4/2</p>
+      <p class="fs20 lh30">
         はじめまして。
         <br />
         薬膳料理教室 kokoroの講師、松田こころです。
@@ -35,7 +42,7 @@
     </article>
 
     <div class="form-button">
-      <a href="blog2.html" class="button">次の記事へ</a>
+      <a href="blog2.html" class="base-hover mr30">次の記事へ</a>
     </div>
   </body>
 </html>

@@ -2,10 +2,41 @@
   display: flex;
 }
 
-.size {
-  font-size: 20px;
-}
-
 .flex1 {
   flex: 1;
 }
+
+.fs13 {
+  font-size: 13px;
+}
+
+.fs15 {
+  font-size: 15px;
+}
+
+/* .size では何をしているのか分からない為、fs20 に変更 */
+.fs20 {
+  font-size: 20px;
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
+.ml30 {
+  margin-right: 300px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.lh30 {
+  line-height: 30px;
+}
+
+.date-m {
+  margin: 0 0 15px;
+}
+
+

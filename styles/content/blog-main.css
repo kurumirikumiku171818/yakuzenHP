@@ -7,17 +7,18 @@ article {
   background-color: #faf9f5;
 }
 
-.date {
+/* このような感じにわかりやすい名前をつける方が良いです！ */
+.blog-date {
   margin: 0 0 15px;
   font-size: 13px;
 }
 
-.title {
+.blog-title {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.write {
+.blog-detail {
   font-size: 15px;
   line-height: 30px;
 }

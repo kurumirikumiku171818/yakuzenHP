@@ -1,4 +1,8 @@
-.base-hover:hover {
-  color: #699b5f;
+.base-hover {
+  transition: color 0.2s;
 }
 
+.base-hover:hover {
+  color: #699b5f;
+  transition: color 0.2s;
+}
