@@ -30,3 +30,22 @@
 .explain-content {
   line-height: 1.8;
 }
+
+@media screen and (max-width: 768px) {
+  #koushi {
+    font-size: 30px;
+    color: darkolivegreen;
+  }
+}
+.name {
+  font-size: 25px;
+}
+
+.everyday {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.explain-content {
+  line-height: 1.8;
+}

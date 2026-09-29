@@ -16,3 +16,19 @@
   font-size: 35px;
   padding-bottom: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .kokoro-content {
+    font-size: 15px;
+  }
+}
+
+.daimei {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#kokoro {
+  font-size: 30px;
+  color: darkolivegreen;
+}
