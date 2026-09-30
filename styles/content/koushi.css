@@ -31,12 +31,6 @@
   line-height: 1.8;
 }
 
-@media screen and (max-width: 768px) {
-  #koushi {
-    font-size: 30px;
-    color: darkolivegreen;
-  }
-}
 .name {
   font-size: 25px;
 }
@@ -49,3 +43,19 @@
 .explain-content {
   line-height: 1.8;
 }
+
+@media screen and (max-width: 768px) {
+ #koushi {
+  font-size: 30px;
+  color: darkolivegreen;
+  margin: 40px;
+  }
+
+
+@media screen and (max-width: 375px) {
+#koushi {
+  font-size: 50px;
+  color: darkolivegreen;
+  margin: 40px;
+ 
+  }

@@ -76,4 +76,25 @@ nav ul {
   }
 }
 
-/* object-fit */
+@media screen and (max-width: 375px) {
+  .sp-nav {
+    display: none;
+  }
+
+  .top-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .top-text {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px #2d603c;
+    text-align: center;
+    line-height: 1.8;
+  }
+}
