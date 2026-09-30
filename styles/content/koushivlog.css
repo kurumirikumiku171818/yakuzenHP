@@ -3,3 +3,10 @@
   color: darkolivegreen;
   margin: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  #koushi-vlog {
+    font-size: 30px;
+    color: darkolivegreen;
+  }
+}

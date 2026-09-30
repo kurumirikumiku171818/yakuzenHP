@@ -1,4 +1,4 @@
-.footer-content {
+.footer-section {
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -6,13 +6,13 @@
   border-top: 5px double;
 }
 
-footer section {
+.footer-content {
   flex: 0 1 300px;
   font-size: 20px;
   line-height: 1.8;
 }
 
-.footer-content section a {
+.footer-content a {
   display: block;
   margin-bottom: 10px;
 }
@@ -30,4 +30,15 @@ footer section {
 
 footer {
   background-color: #f7f3ea;
+}
+
+@media screen and (max-width: 768px) {
+  .map {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.footer-content {
+  font-size: 15px;
 }
