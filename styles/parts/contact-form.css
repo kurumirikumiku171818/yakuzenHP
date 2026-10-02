@@ -45,3 +45,14 @@ text {
   padding: 10px 20px;
   font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+  .header-wrapper .flex {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-list:not(:first-child) {
+    display: none;
+  }
+}

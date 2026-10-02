@@ -63,3 +63,12 @@ textarea {
   font-size: 14px;
   border: 1px solid #d8d2c5;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-list:not(:first-child) {
+    display: none;
+  }
+  .header-wrapper nav {
+    margin-right: 50px;
+  }
+}
