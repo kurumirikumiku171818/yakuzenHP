@@ -1,4 +1,4 @@
-#kokoro {
+.section-title {
   font-size: 50px;
   color: darkolivegreen;
   margin: 40px;
@@ -8,3 +8,24 @@
   display: inline-block;
   background: linear-gradient(transparent 70%, #bfd9c4 0%);
 }
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 30px;
+    color: darkolivegreen;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .section-title {
+    font-size: 20px;
+    color: darkolivegreen;
+    margin: 20px;
+  }
+
+  .koushi-title-m {
+    margin: 20px 40px 0px;
+  }
+}
+
+

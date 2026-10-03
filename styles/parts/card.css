@@ -26,20 +26,9 @@
     font-size: 20px;
     padding-bottom: 15px;
   }
-
-  #kokoro {
-    font-size: 30px;
-    color: darkolivegreen;
-  }
 }
 
 @media screen and (max-width: 380px) {
-  #kokoro {
-    font-size: 20px;
-    color: darkolivegreen;
-    margin: 20px;
-  }
-
   .kokoro-content {
     font-size: 15px;
     flex-direction: column;
