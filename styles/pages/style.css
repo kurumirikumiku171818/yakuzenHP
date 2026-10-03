@@ -23,9 +23,12 @@
     margin: 20px;
   }
 
-  .koushi-title-m {
+  /* 後勝ち */
+  .koushi-title-sp-m {
     margin: 20px 40px 0px;
   }
+
+  .voice-title-sp-m {
+    margin: 25px;
+  }
 }
-
-

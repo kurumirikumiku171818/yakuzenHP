@@ -9,11 +9,3 @@
 .flex1 {
   flex: 1;
 }
-
-
-
-@media screen and (max-width: 768px) {
-  .tab-m40 {
-    margin: 40px;
-  }
-}
