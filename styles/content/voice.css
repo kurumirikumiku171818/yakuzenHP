@@ -42,3 +42,24 @@
     color: darkolivegreen;
   }
 }
+
+@media screen and (max-width: 380px) {
+  #voice {
+    font-size: 20px;
+    color: darkolivegreen;
+    margin: 25px;
+  }
+
+  .voice-content {
+    font-size: 15px;
+    flex-direction: column;
+  }
+
+  .voice-title {
+    font-size: 20px;
+  }
+
+  .size {
+    font-size: 15px;
+  }
+}
