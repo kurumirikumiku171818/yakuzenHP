@@ -8,7 +8,3 @@
   display: inline-block;
   background: linear-gradient(transparent 70%, #bfd9c4 0%);
 }
-
-a:hover {
-  color: darkseagreen;
-}

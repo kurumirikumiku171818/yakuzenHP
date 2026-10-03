@@ -1,17 +1,17 @@
-#koushi-vlog {
+.koushi-title {
   font-size: 50px;
   color: darkolivegreen;
   margin: 40px;
 }
 @media screen and (max-width: 768px) {
-  #koushi-vlog {
+  .koushi-title {
     font-size: 30px;
     color: darkolivegreen;
   }
 }
 
 @media screen and (max-width: 380px) {
-  #koushi-vlog {
+  .koushi-title {
     font-size: 20px;
     color: darkolivegreen;
   }
