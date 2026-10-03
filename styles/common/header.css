@@ -78,8 +78,8 @@ nav ul {
   }
 }
 
-@media screen and (max-width: 375px) {
-  .sp-nav {
+@media screen and (max-width: 380px) {
+  .top-text {
     display: none;
   }
 
@@ -88,9 +88,5 @@ nav ul {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
-
-  .top-text {
-    display: none;
   }
 }

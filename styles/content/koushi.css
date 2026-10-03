@@ -31,32 +31,46 @@
   line-height: 1.8;
 }
 
-.name {
-  font-size: 25px;
-}
-
-.everyday {
-  font-size: 20px;
-  padding: 15px;
-}
-
-.explain-content {
-  line-height: 1.8;
-}
-
 @media screen and (max-width: 768px) {
- #koushi {
-  font-size: 30px;
-  color: darkolivegreen;
-  margin: 40px;
+  #koushi {
+    font-size: 30px;
+    color: darkolivegreen;
+    margin: 40px;
   }
 }
 
-
-@media screen and (max-width: 375px) {
-#koushi {
-  font-size: 50px;
-  color: darkolivegreen;
-  margin: 40px;
- 
+@media screen and (max-width: 380px) {
+  #koushi {
+    font-size: 20px;
+    color: darkolivegreen;
+    margin: 20px 40px 0px;
   }
+
+  .koushi-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .koushi-img {
+    width: 70%;
+    height: auto;
+    margin: 0px;
+  }
+
+  .name {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .explain {
+    font-size: 15px;
+  }
+
+  .everyday {
+    font-size: 20px;
+  }
+
+  .explain-content {
+    font-size: 15px;
+  }
+}
