@@ -45,3 +45,13 @@ text {
   padding: 10px 20px;
   font-size: 14px;
 }
+
+.button-area {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
