@@ -1,13 +1,9 @@
-#voice {
-  font-size: 50px;
-  color: darkolivegreen;
-  margin: 40px;
-}
-
 .voice-content {
   display: flex;
   justify-content: space-around;
   font-size: 25px;
+  margin: 30px;
+  gap: 20px;
 }
 
 .voice-content .voice-wrap {

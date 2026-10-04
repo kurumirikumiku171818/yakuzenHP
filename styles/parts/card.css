@@ -1,7 +1,9 @@
 .kokoro-content {
   display: flex;
   justify-content: space-around;
+  gap: 20px;
   font-size: 20px;
+  margin: 25px;
 }
 
 .kokoro-content .discription-card {
