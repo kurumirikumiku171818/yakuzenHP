@@ -52,3 +52,10 @@
 .prev-button {
   margin-right: 300px;
 }
+
+@media screen and (max-width: 380px) {
+  .button {
+    font-size: 15px;
+    align-items: center;
+  }
+}
