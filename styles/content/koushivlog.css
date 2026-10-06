@@ -4,10 +4,3 @@
     color: darkolivegreen;
   }
 }
-
-@media screen and (max-width: 380px) {
-  .koushi-title {
-    font-size: 20px;
-    color: darkolivegreen;
-  }
-}
