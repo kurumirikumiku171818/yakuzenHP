@@ -54,8 +54,16 @@
 }
 
 @media screen and (max-width: 380px) {
-  .button {
+  .button-area {
+    text-align: center;
+  }
+
+  .button-area .button {
+    margin: 0 0 30px;
     font-size: 15px;
-    align-items: center;
+  }
+
+  .button-area .button:last-child {
+    margin-bottom: 0;
   }
 }
