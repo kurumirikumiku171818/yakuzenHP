@@ -23,6 +23,8 @@
 
 .explain-content {
   line-height: 1.8;
+  /* 画面が広くなると、改行のないテキストが無限に伸びてしまうので、最大幅を追加しました！ */
+  max-width: 700px;
 }
 
 @media screen and (max-width: 768px) {
