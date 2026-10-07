@@ -8,8 +8,9 @@
 
 .voice-content .voice-wrap {
   padding: 30px;
-  border: 1px solid #d8d0c2;
-  border-radius: 10px;
+  border: 1px solid #e2ddd2;
+  border-radius: 8px;
+  background-color: #faf9f5;
 }
 
 .voice-title {

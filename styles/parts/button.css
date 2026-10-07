@@ -54,16 +54,14 @@
 }
 
 @media screen and (max-width: 380px) {
-  .button-area {
-    text-align: center;
+  .form-button {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
   }
 
-  .button-area .button {
-    margin: 0 0 30px;
-    font-size: 15px;
-  }
-
-  .button-area .button:last-child {
-    margin-bottom: 0;
+  .form-button .button {
+    font-size: 14px;
+    margin: 0;
   }
 }
