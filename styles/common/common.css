@@ -10,6 +10,14 @@
   flex: 1;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
 .ml40 {
   margin-left: 40px;
 }
@@ -19,5 +27,5 @@
 }
 
 .px20 {
-  padding: 0 20px ;
+  padding: 0 20px;
 }
