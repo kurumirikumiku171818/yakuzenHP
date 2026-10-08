@@ -72,3 +72,11 @@ textarea {
     margin-right: 50px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .book-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
